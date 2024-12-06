@@ -9,6 +9,30 @@
       * {
         box-sizing: border-box;
       }
+
+      /* Style How To Play Section */
+      .how-to-play {
+        margin: 20px;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+        max-width: 600px;
+        color: white;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        text-align: center;
+      }
+
+      .how-to-play span {
+        font-weight: bold;
+        color: #ffdd57;
+      }
+
+      .how-to-play b {
+        color: #4dc0b5;
+      }
     </style>
   </head>
 
@@ -128,11 +152,14 @@
       </div>
       <canvas></canvas>
     </div>
-    <div>
-      NOTE: How To Play ? <br />Player 1 : can use (q , space , e ,r ) to fight
-      && (w , a,d) to move and jump <br />Player 2 : can use (arrow-down ,
-      <b> , </b> , . , / ) && (arrow-right , arrow-left, arrow-up ) to move and
-      jump
+    <div class="how-to-play">
+      <p>
+        <span>NOTE:</span> How To Play? <br />
+        <span>Player 1:</span> can use <span>(q, space, e, r)</span> to fight
+        && <span>(w, a, d)</span> to move and jump <br />
+        <span>Player 2:</span> can use <span>(arrow-down, <b>,</b>, ., /)</span>
+        && <span>(arrow-right, arrow-left, arrow-up)</span> to move and jump
+      </p>
     </div>
     <script src="./js/utls.js"></script>
     <script src="./js/classes.js "></script>
